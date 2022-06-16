@@ -1,0 +1,122 @@
+
+ .pp{
+    font-family: "Courier Monospace";
+    font-size: 2em;
+    color: red;
+ }
+ .pp:last-of-type {
+    animation: type 0.33s infinite;
+ }
+ @keyframes type{
+    to { opacity: .0; }
+ }
+ .center {
+    margin: auto;
+    width: 50%;
+    
+    padding: 10px;
+  }
+
+.f{
+    background-image: url("images/bgg1.jpg");
+    
+}
+.fff{
+    background-image: url("images/bg2.jpg");
+    
+}
+
+.relative {
+    position: relative;
+    top: 40px;
+    
+  }
+
+  .relative2 {
+    position: relative;
+    top: 130px;
+    
+  }
+/* ############ */
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.l{
+    position: relative;
+    left: 34rem;
+    top: 3rem  ;
+    font-size: 38px;
+    
+}
+
+.ll{
+    position: relative;
+    left: 40rem;
+    top: 2rem;
+    font-size: 28px;
+    
+}
+.gg{
+    position: relative;
+    left: 10rem;
+}
+.edu{
+    position: relative;
+    left: 10rem;
+    top: 2rem;
+}
+.ggg{
+    position: relative;
+    top: 5rem;
+    left: 28rem;
+
+    
+}
+.ji{
+    position: relative;
+    left: 8rem;
+}
+.jii{
+    position: relative;
+    left: 7rem;
+}
+.dr{
+    position: relative;
+    left: 11rem;
+    top: -3rem;
+}
+.ji2{
+    position: relative;
+    left:3.5rem;
+}
+.iim{
+    position: relative;
+    left: 11.3rem;
+}
+.king{
+    position: relative;
+    top: -10px;
+    padding: 100px;
+}
+/* 
+ */
+ body{
+    background-image: linear-gradient( 109.6deg,  rgba(255,24,134,1) 11.2%, rgba(252,232,68,1) 52%, rgba(53,178,239,1) 100.2% );
+ }
+
+ dip{
+    background: white;
+ }
